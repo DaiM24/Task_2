@@ -22,6 +22,12 @@ h2 {
     background-color: black;
     padding: 5px 0px;
 }
+.logo {
+    height: 200px;
+    position: absolute;
+    right: 8%;
+    top: 26%;
+}
 nav > a{
     display: flex;
     flex-direction: column;
