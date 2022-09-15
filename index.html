@@ -4,39 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>MDHL</title>
 </head>
-
 <body>
     <header>
-        <h1>Mighty Ducks Hockey League</h1>
-        <img src="./assets/Logo.png" alt="Logo" width="300">
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./pages/about.html">About MDHL</a>
-            <a href="./pages/contact.html">Contact</a>
-        </nav>
+        <div class="container-title">
+            <h1 class="title">Mighty Ducks Hockey League</h1>
+        </div>
+        <h2>Upcoming Events</h2>
     </header>
-    <main>
-        <img src="./assets/hockey_1.jpg" alt="Hockey" width="400">
-        <h3>Upcoming Events</h3>
-        <ul>
-            <li>August 4
-                <ul>
-                    <li>MDSL Fundraiser</li>
-                </ul>
-            </li>
-            <li>August 16
-                <ul>
-                    <li>Season Kick-off: Meet the Teams</li>
-                </ul>
-            </li>
-            <li>September 1
-                <ul>
-                    <li>First Game of the Season (Check Game Schedule for details)</li>
-                </ul>
-            </li>
-        </ul>
+    <main class="container">
+        <div class="container-nav">
+            <nav>
+                <a href="./index.html">Home</a>
+                <a href="./pages/about.html">About MDHL</a>
+                <a href="./pages/contact.html">Contact</a>
+            </nav>
+        </div>
+        <div class="container-dates">
+            <ul>
+                <li class="bold">August 4</li>
+                <li class="space">MDSL Fundraiser</li>
+                <li class="bold">August 16</li>
+                <li class="space">Season Kick-off: Meet the Teams</li>
+                <li class="bold">September 1</li>
+                <li class="space">First Game of the Season (Check Game Schedule for details)</li>
+            </ul>
+        </div>
     </main>
 </body>
 </html>
